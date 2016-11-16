@@ -1,25 +1,12 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-class Hello extends React.Component {
-    render() {
-        return <span>Hello</span>
-    }
-}
+import Hello from './components/hello'
+import Person from './components/person'
 
-class World extends React.Component {
-    render() {
-        return <span>{this._getPerson()}</span>
-    }
-
-    _getPerson() {
-        return this.props.who || 'bob';
-    }
-}
-
-class App extends React.Component {
+class App extends Component {
 
     render() {
-        return <div><Hello /> <World who="David"/></div>
+        return <div><Hello /> <Person who="David"/></div>
     }
 }
 
