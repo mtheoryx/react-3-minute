@@ -1,12 +1,11 @@
 import React, {Component} from 'react'
 
-import Hello from './components/hello'
-import Person from './components/person'
+import Greeting from './components/greeting';
 
 class App extends Component {
 
     render() {
-        return <div><Hello /> <Person who="Learner"/></div>
+        return <Greeting />
     }
 }
 

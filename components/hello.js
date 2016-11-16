@@ -1,8 +1,5 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-export default class Hello extends Component {
+const Hello = () => <span>Hello, </span>;
 
-    render() {
-        return <span>Hello</span>
-    }
-}
+export default Hello;
