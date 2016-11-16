@@ -1,7 +1,9 @@
-import React, {Component} from 'react'
+import React from 'react'
+import faker from 'faker';
+
 import Hello from './hello';
 import Person from './person';
-import faker from 'faker';
+
 
 const getRandomName = () => faker.name.findName();
 
