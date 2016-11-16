@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mtheoryx/react-3-minute/issues"
   },
-  "homepage": "https://github.com/mtheoryx/react-3-minute#readme"
+  "homepage": "https://github.com/mtheoryx/react-3-minute#readme",
+  "dependencies": {
+    "faker": "3.1.0"
+  }
 }

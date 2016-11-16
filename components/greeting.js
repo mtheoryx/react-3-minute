@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import Hello from './hello';
 import Person from './person';
+import faker from 'faker';
 
-export default class Greeting extends Component {
+const getRandomName = () => faker.name.findName();
 
-    render() {
-        return <div><Hello /> <Person who="refactorer" /></div>
-    }
-}
+const Greeting = () => <div><Hello /> <Person who={getRandomName()} /></div>;
+
+export default Greeting;
