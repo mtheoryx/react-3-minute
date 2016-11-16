@@ -6,7 +6,7 @@ import Person from './components/person'
 class App extends Component {
 
     render() {
-        return <div><Hello /> <Person who="David"/></div>
+        return <div><Hello /> <Person who="Learner"/></div>
     }
 }
 

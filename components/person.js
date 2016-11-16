@@ -1,6 +1,7 @@
-import React, {Component} from 'react'
+import React, {Component, PropTypes} from 'react'
 
-export default class World extends Component {
+class World extends Component {
+
     render() {
         return <span>{this._getPerson()}</span>
     }
@@ -9,3 +10,9 @@ export default class World extends Component {
         return this.props.who || 'bob';
     }
 }
+
+export default World;
+
+World.propTypes = {
+    who: PropTypes.string
+};
