@@ -1,0 +1,20 @@
+{
+  "name": "react-3-minute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtheoryx/react-3-minute.git"
+  },
+  "keywords": [],
+  "author": "David R Poindexter III <drpoindexter@gmail.com> (http://vcard.davidrpoindexter.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtheoryx/react-3-minute/issues"
+  },
+  "homepage": "https://github.com/mtheoryx/react-3-minute#readme"
+}
